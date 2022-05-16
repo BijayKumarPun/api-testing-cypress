@@ -1,4 +1,4 @@
 {
-"baseUrl":"https://bijaykumarpun.com.np/web-tic-tac-toe/",
+"baseUrl":"https://todo-app-barkend.herokuapp.com/",
 "integrationFolder":"cypress/integration/api-tests"
 }
