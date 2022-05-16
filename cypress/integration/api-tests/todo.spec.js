@@ -10,12 +10,12 @@ assert.isArray(todos.body, 'Todos Response is an array')
 });
 });
 
-// Delete todo item
-
+// Delete todo item with id 10
+var todoItem=4;
 it('deletes Todo items - DELETE', () => {
-cy.request('DELETE','/todos/${todoItem}').as('todoRequest');
-//Deletes todo item with id = 9
-cy.get(@todoRequest').then(todos => {
+cy.request('DELETE','/todos/10').as('todoRequest');
+//Deletes todo item with id = 10
+cy.get('@todoRequest').then(todos => {
 expect(todos.status).to.eq(200);
 assert.isString(todos.body, 'todo deleted!')
 });
