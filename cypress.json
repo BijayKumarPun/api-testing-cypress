@@ -1,3 +1,4 @@
 {
 "baseUrl":"https://bijaykumarpun.com.np/web-tic-tac-toe/"
+"integrationFolder":"cypress/integration/api-tests"
 }
